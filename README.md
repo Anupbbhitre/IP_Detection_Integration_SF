@@ -13,7 +13,7 @@ This project retrieves IP Address location information from the public API `http
 ---
 
 ## 📁 Project Structure
-├── classes/https_ip.cls
-├── classes/https_ip.cls-meta.xml
-├── pages/ipLookup.page
-└── pages/ipLookup.page-meta.xml
+├── classes/https_utrace.cls
+├── classes/https_utrace.cls-meta.xml
+├── pages/vfs_utrace.page
+└── pages/vf_utrace.page-meta.xml
