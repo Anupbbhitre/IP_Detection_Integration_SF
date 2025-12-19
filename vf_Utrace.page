@@ -1,0 +1,13 @@
+<apex:page controller="https_utrace">
+    <apex:form >
+        <apex:inputText value="{!ipAddress}"/>
+        <apex:commandButton value="Get Id Details" action="{!getIpAddressDetails}"/>
+        <apex:inputTextarea value="{!xml}" id="OP" cols="30" rows="30"/> 
+        
+        <apex:dataTable value="{!locationData}" var="a" width="700" frame="border" cellpadding="10">
+        <apex:column value="{!a}" headerValue="key"/>
+            <apex:column value="{!locationData[a]}" headerValue="data"/>
+        
+        </apex:dataTable>
+    </apex:form>
+</apex:page>
